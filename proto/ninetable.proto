@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package api;
+option go_package = "/proto";
+
+message data {
+  repeated int32 numbers = 1;
+}
+
+service nineTableService {
+  rpc Multiply (data) returns (data) {};
+}
