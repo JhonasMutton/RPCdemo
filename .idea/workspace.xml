@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53e14451-90e0-4573-b058-ce125dee16f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto/ninetable.proto" beforeDir="false" afterPath="$PROJECT_DIR$/proto/ninetable.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/JhonasMutton/RPCdemo/client">
+  <component name="RunManager" selected="Go Build.go build github.com/JhonasMutton/RPCdemo/server">
     <configuration name="go build github.com/JhonasMutton/RPCdemo/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="RPCdemo" />
       <working_directory value="$PROJECT_DIR$" />
@@ -85,8 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/JhonasMutton/RPCdemo/client" />
         <item itemvalue="Go Build.go build github.com/JhonasMutton/RPCdemo/server" />
+        <item itemvalue="Go Build.go build github.com/JhonasMutton/RPCdemo/client" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +170,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/server/main.go</url>
-          <line>31</line>
+          <line>36</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">

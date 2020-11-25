@@ -6,7 +6,6 @@ import (
 	"google.golang.org/grpc"
 	"log"
 	"net"
-	"time"
 )
 
 func main() {
@@ -32,7 +31,7 @@ type NineTableService struct {
 }
 
 func (n NineTableService) Multiply(ctx context.Context, data *proto.Data) (*proto.Data, error) {
-	time.Sleep(10 * time.Second)
+	//time.Sleep(10 * time.Second)
 	result := make([]int32, 0)
 	for _, v := range data.Numbers {
 		result = append(result, v*int32(9))
